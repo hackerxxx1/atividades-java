@@ -112,6 +112,7 @@ public class Atividade {
                         System.out.println("brasileiro e foda n consegue nem votar direito");
                         break;
                 }
+                ler2.close();
                 break;
             case 3:
                 System.out.println("ate nunca mais");
@@ -120,6 +121,7 @@ public class Atividade {
                 System.out.println("voce tem que digitar essa porra direito");
                 break;
         }
+        ler.close();
     }
     } 
 }
