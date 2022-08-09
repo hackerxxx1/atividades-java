@@ -22,14 +22,7 @@ public class Heroi {
     //esta na ativa
     private Boolean atuar;
     //super poder
-    class Super{
-        //nome
-        String nome;
-        //tipo
-        String tipo;
-        //descrição
-        String descrição;
-       }
+    
     //super poderes
     private ArrayList<Super> poderes = new ArrayList<Super>();
     //metodos
@@ -190,5 +183,7 @@ public void setPoderes(ArrayList<Super> x){
 public ArrayList<Super> getPoderes(){
     return poderes;
 }
-       
+public void mostrar() {
+    return ("Base: "+getBase()+ "\n" +"Cidade natal: "+getCidade()+"\n"+"Idade: "+getIdade()+" "+get).toString();
+}       
 }

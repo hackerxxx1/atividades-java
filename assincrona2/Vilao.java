@@ -22,14 +22,7 @@ public class Vilao {
     //esta na ativa
     private Boolean atuar;
     //super poder
-    class Super{
-        //nome
-        String nome;
-        //tipo
-        String tipo;
-        //descrição
-        String descrição;
-       }
+    
     //super poderes
     private ArrayList<Super> poderes = new ArrayList<Super>();
     //metodos
