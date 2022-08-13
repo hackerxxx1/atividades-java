@@ -184,6 +184,6 @@ public ArrayList<Super> getPoderes(){
     return poderes;
 }
 public void mostrar() {
-    return ("Base: "+getBase()+ "\n" +"Cidade natal: "+getCidade()+"\n"+"Idade: "+getIdade()+" "+get).toString();
+    return ("Base: "+getBase()+ "\n" +"Cidade natal: "+getCidade()+"\n"+"Idade: "+getIdade()+" ");
 }       
 }
