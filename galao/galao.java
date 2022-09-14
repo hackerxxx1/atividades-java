@@ -17,22 +17,23 @@ public class galao {
             System.out.println("selecione o que quer fazer ai: ");
     
             Scanner ler = new Scanner(System.in);
-            Scanner ler2 = new Scanner(System.in);
+            
             op = ler.nextInt();
-            ler.close();
+ 
             switch (op) {
                 case 1:
                     System.out.println("digite o numero de galoes ai: ");
-                   
+                    Scanner ler2 = new Scanner(System.in);
                     galao = ler2.nextDouble();
-                    ler2.close();
+                   
                     litro = galao * 3.7854;
                     System.out.println("o numero de galoes foi: "+galao+" e o numero de litros foi: "+litro);    
                     break;
                 case 2:
                     System.out.println("digite o numero de litros ai: ");
-                    litro = ler2.nextDouble();
-                    ler2.close();
+                    Scanner ler3 = new Scanner(System.in);
+                    litro = ler3.nextDouble();
+                    
                     galao = litro / 3.7854;
                     System.out.println("o numero de galoes foi: "+galao+" e o numero de litros foi: "+litro);    
                         break;
