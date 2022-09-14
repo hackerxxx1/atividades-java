@@ -19,7 +19,7 @@ public class galao {
             Scanner ler = new Scanner(System.in);
             
             op = ler.nextInt();
- 
+          
             switch (op) {
                 case 1:
                     System.out.println("digite o numero de galoes ai: ");
@@ -39,6 +39,10 @@ public class galao {
                         break;
                 default:
                     break;
-            }}
-    }
+                  
+            }
+            ler.close();
+        }
+        
+        }
 }
