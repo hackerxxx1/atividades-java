@@ -6,7 +6,7 @@
 
 <div style="display: inline_block"><br>
   <img align="center" alt="J" height="70" width="100" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original-wordmark.svg">
- 
+ <img align="center" alt="mysql" height="40" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg">
 
   
   
