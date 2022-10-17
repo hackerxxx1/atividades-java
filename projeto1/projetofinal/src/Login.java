@@ -69,6 +69,7 @@ public class Login implements ActionListener {
                     if (text.getText().toLowerCase().equals("senai")) {
                         rotulo.setText("Bem vindo adm");
                         JOptionPane.showMessageDialog(null,"bem vindo adm" );
+                    
                     }else{
                         rotulo.setText("tente de novo");
                         JOptionPane.showMessageDialog(null,"tenta de novo ai" );
