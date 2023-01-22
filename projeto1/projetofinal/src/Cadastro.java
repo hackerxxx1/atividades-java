@@ -39,6 +39,7 @@ public class Cadastro implements ActionListener{
         //layout flow
         tela.setLayout(new FlowLayout());
         //adicionando no container todos os componentes
+       
         tela.add(fab);
         tela.add(cod);
         tela.add(fabri);
